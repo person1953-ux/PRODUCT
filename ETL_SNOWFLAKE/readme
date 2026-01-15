@@ -1,0 +1,16 @@
+# ---------------------------------------------------------
+Project : etl_db_snowflake_production
+# create table, query table, output csv file, out put to matplotlib chart
+# 1. Script to create some tables in snowflake db warehouse
+# 2. Source data to  snowflake tables from  from AWS S3 bucket
+# 3. AWS S3 's3://sfquickstarts/ad-spend-roi-snowpark-python-scikit-learn-streamlit/'
+# 4. Query snowflake table to get report of revenue based on Year and Sum of month
+# 5. Conver snowflake dataframe to pandas data frame
+# 6. Create a new subdirectory
+# 7. Create csv file and insert data into it.
+# 10. Generate plot chart.
+# ---------------------------------------------------------
+
+# Databricks page for tables created
+https://app.snowflake.com/us-east-2.aws/kr04362/#/data/databases/
+SNOWFLAKE_LEARNING_DB/schemas/NGUYENTON53_GET_STARTED_WITH_PYTHON/table/CAMPAIGN_SPEND
