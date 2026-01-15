@@ -1,0 +1,7 @@
+PROJECT etl_webscraping_SQLite3_PostgresSQl
+
+1) Use Web scraping library BeautifulSoup - to read
+2) url = 'https://web.archive.org/web/20230902185655/https://en.everybodywiki.com/100_Most_Highly-Ranked_Films'
+3) Write to POSTgreSQL table top_50_films
+4) Write to SQLite3 table top_50_films
+
