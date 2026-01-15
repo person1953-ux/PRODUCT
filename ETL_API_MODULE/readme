@@ -1,0 +1,6 @@
+The python scripts are breakdown into module so that module could be reused by other project
+--db configuration
+--server connection
+--API configuration connection
+etc..
+
