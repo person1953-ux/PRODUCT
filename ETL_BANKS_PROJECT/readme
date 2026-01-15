@@ -1,0 +1,35 @@
+### WEB SCRAPING : ETL Pipeline: World's Largest Banks ###
+The project to link to the URL : url = "https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks"
+1) Scraping through the html page to get information of the largest bank in the world using python library BeautifulSoup
+2) Writing information to the SQLlite database
+3) Run the 2 queries to get the reports
+4) Read csv file  = "exchange_rate.csv"
+5) Output  csv file  =  "Largest_banks_data.csv"
+6) Output log information to "code_log.txt"
+
+#### OUT_PUT ####
+
+SELECT * FROM Largest_banks
+                                      Name  ...  MC_INR_Billion
+0                           JPMorgan Chase  ...        35910.71
+1                          Bank of America  ...        19204.58
+2  Industrial and Commercial Bank of China  ...        16138.75
+3               Agricultural Bank of China  ...        13328.41
+4                                HDFC Bank  ...        13098.63
+5                              Wells Fargo  ...        12929.42
+6                                     HSBC  ...        12351.26
+7                           Morgan Stanley  ...        11681.85
+8                  China Construction Bank  ...        11598.07
+9                            Bank of China  ...        11348.39
+
+[10 rows x 5 columns]
+SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+   AVG(MC_GBP_Billion)
+0              151.987
+SELECT Name FROM Largest_banks LIMIT 5
+                                      Name
+0                           JPMorgan Chase
+1                          Bank of America
+2  Industrial and Commercial Bank of China
+3               Agricultural Bank of China
+4                                HDFC Bank
