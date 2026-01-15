@@ -1,0 +1,11 @@
+PROJECT etl_project_gdp_production
+
+1) Accessing the hlml page :
+'https://web.archive.org/web/20230902185326/https://en.wikipedia.org/wiki/List_of_countries_by_GDP_%28nominal%29'
+2) Use BeautifulSoup (html.parse) to scraping information of the countries by GDP
+3) Data is mapped to pandas data frame
+4) Load into csv file
+4) Then insert into DB sqlite3 World_Economies.db
+5) Build sqllite3 query : SELECT * from {table_name} WHERE GDP_USD_billions >= 100 for testing the result
+
+
