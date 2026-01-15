@@ -1,0 +1,312 @@
+2026-Jan-05-14:11:03,ETL Job Started
+2026-Jan-05-14:11:03,Extract phase Started
+2026-Jan-05-14:11:03,Extract phase Ended
+2026-Jan-05-14:11:03,Transform phase Started
+2026-Jan-05-14:11:03,Transform phase Ended
+2026-Jan-05-14:11:03,Load phase Started
+2026-Jan-05-14:11:03,Load phase Ended
+2026-Jan-05-14:11:03,ETL Job Ended
+2026-Jan-05-14:14:39,ETL Job Started
+2026-Jan-05-14:14:39,Extract phase Started
+2026-Jan-05-14:14:39,Extract phase Ended
+2026-Jan-05-14:14:39,Transform phase Started
+2026-Jan-05-14:14:39,Transform phase Ended
+2026-Jan-05-14:14:39,Load phase Started
+2026-Jan-05-14:14:39,Load phase Ended
+2026-Jan-05-14:14:39,ETL Job Ended
+2026-Jan-05-14:17:57,ETL Job Started
+2026-Jan-05-14:17:57,Extract phase Started
+2026-Jan-05-14:17:57,Extract phase Ended
+2026-Jan-05-14:17:57,Transform phase Started
+2026-Jan-05-14:17:58,Transform phase Ended
+2026-Jan-05-14:17:58,Load phase Started
+2026-Jan-05-14:17:58,Load phase Ended
+2026-Jan-05-14:17:58,ETL Job Ended
+2026-Jan-05-14:18:17,ETL Job Started
+2026-Jan-05-14:18:17,Extract phase Started
+2026-Jan-05-14:18:18,Extract phase Ended
+2026-Jan-05-14:18:18,Transform phase Started
+2026-Jan-05-14:18:18,Transform phase Ended
+2026-Jan-05-14:18:18,Load phase Started
+2026-Jan-05-14:18:18,Load phase Ended
+2026-Jan-05-14:18:18,ETL Job Ended
+2026-Jan-05-14:42:39,ETL Job Started
+2026-Jan-05-14:42:39,Extract phase Started
+2026-Jan-05-14:42:39,Extract phase Ended
+2026-Jan-05-14:42:39,Transform phase Started
+2026-Jan-05-14:42:39,Transform phase Ended
+2026-Jan-05-14:42:39,Load phase Started
+2026-Jan-05-14:42:39,Load phase Ended
+2026-Jan-05-14:42:39,ETL Job Ended
+2026-Jan-05-14:42:58,ETL Job Started
+2026-Jan-05-14:42:58,Extract phase Started
+2026-Jan-05-14:42:58,Extract phase Ended
+2026-Jan-05-14:42:58,Transform phase Started
+2026-Jan-05-14:42:58,Transform phase Ended
+2026-Jan-05-14:42:58,Load phase Started
+2026-Jan-05-14:42:58,Load phase Ended
+2026-Jan-05-14:42:58,ETL Job Ended
+2026-Jan-05-14:48:29,ETL Job Started
+2026-Jan-05-14:48:29,Extract phase Started
+2026-Jan-05-14:48:29,Extract phase Ended
+2026-Jan-05-14:48:29,Transform phase Started
+2026-Jan-05-14:48:29,Transform phase Ended
+2026-Jan-05-14:48:29,Load phase Started
+2026-Jan-05-14:48:29,Load phase Ended
+2026-Jan-05-14:48:29,ETL Job Ended
+2026-Jan-05-14:50:37,ETL Job Started
+2026-Jan-05-14:50:37,Extract phase Started
+2026-Jan-05-14:50:37,Extract phase Ended
+2026-Jan-05-14:50:37,Transform phase Started
+2026-Jan-05-14:50:37,Transform phase Ended
+2026-Jan-05-14:50:37,Load phase Started
+2026-Jan-05-14:50:37,Load phase Ended
+2026-Jan-05-14:50:37,ETL Job Ended
+2026-Jan-05-15:00:56,ETL Job Started
+2026-Jan-05-15:00:56,Extract phase Started
+2026-Jan-05-15:00:56,Extract phase Ended
+2026-Jan-05-15:00:56,Transform phase Started
+2026-Jan-05-15:00:56,Transform phase Ended
+2026-Jan-05-15:00:56,Load phase Started
+2026-Jan-05-15:00:56,Load phase Ended
+2026-Jan-05-15:00:56,ETL Job Ended
+2026-Jan-05-15:14:03,ETL Job Started
+2026-Jan-05-15:14:03,Extract phase Started
+2026-Jan-05-15:14:03,Extract phase Ended
+2026-Jan-05-15:14:03,Transform phase Started
+2026-Jan-05-15:14:03,Transform phase Ended
+2026-Jan-05-15:14:03,Load phase Started
+2026-Jan-05-15:14:03,Load phase Ended
+2026-Jan-05-15:14:03,ETL Job Ended
+2026-Jan-05-15:44:14,ETL Job Started
+2026-Jan-05-15:44:14,Extract phase Started
+2026-Jan-05-15:44:14,Extract phase Ended
+2026-Jan-05-15:44:14,Transform phase Started
+2026-Jan-05-15:44:14,Transform phase Ended
+2026-Jan-05-15:44:14,Load phase Started
+2026-Jan-05-15:44:14,Load phase Ended
+2026-Jan-05-15:44:14,ETL Job Ended
+2026-Jan-05-15:46:22,ETL Job Started
+2026-Jan-05-15:46:22,Extract phase Started
+2026-Jan-05-15:46:22,Extract phase Ended
+2026-Jan-05-15:46:22,Transform phase Started
+2026-Jan-05-15:46:22,Transform phase Ended
+2026-Jan-05-15:46:22,Load phase Started
+2026-Jan-05-15:46:22,Load phase Ended
+2026-Jan-05-15:46:22,ETL Job Ended
+2026-Jan-05-15:48:26,ETL Job Started
+2026-Jan-05-15:48:26,Extract phase Started
+2026-Jan-05-15:48:26,Extract phase Ended
+2026-Jan-05-15:48:26,Transform phase Started
+2026-Jan-05-15:48:26,Transform phase Ended
+2026-Jan-05-15:48:26,Load phase Started
+2026-Jan-05-15:48:26,Load phase Ended
+2026-Jan-05-15:48:26,ETL Job Ended
+2026-Jan-05-15:48:34,ETL Job Started
+2026-Jan-05-15:48:34,Extract phase Started
+2026-Jan-05-15:48:34,Extract phase Ended
+2026-Jan-05-15:48:34,Transform phase Started
+2026-Jan-05-15:48:34,Transform phase Ended
+2026-Jan-05-15:48:34,Load phase Started
+2026-Jan-05-15:48:34,Load phase Ended
+2026-Jan-05-15:48:34,ETL Job Ended
+2026-Jan-05-15:49:39,ETL Job Started
+2026-Jan-05-15:49:39,Extract phase Started
+2026-Jan-05-15:49:39,Extract phase Ended
+2026-Jan-05-15:49:39,Transform phase Started
+2026-Jan-05-15:49:39,Transform phase Ended
+2026-Jan-05-15:49:39,Load phase Started
+2026-Jan-05-15:49:39,Load phase Ended
+2026-Jan-05-15:49:39,ETL Job Ended
+2026-Jan-05-16:07:29,ETL Job Started
+2026-Jan-05-16:07:29,Extract phase Started
+2026-Jan-05-16:07:29,Extract phase Ended
+2026-Jan-05-16:07:29,Transform phase Started
+2026-Jan-05-16:07:29,Transform phase Ended
+2026-Jan-05-16:07:29,Load phase Started
+2026-Jan-05-16:07:29,Load phase Ended
+2026-Jan-05-16:07:29,ETL Job Ended
+2026-Jan-05-20:32:13,ETL Job Started
+2026-Jan-05-20:32:13,Extract phase Started
+2026-Jan-05-20:32:13,Extract phase Ended
+2026-Jan-05-20:32:13,Transform phase Started
+2026-Jan-05-20:32:13,Transform phase Ended
+2026-Jan-05-20:32:13,Load phase Started
+2026-Jan-05-20:32:13,Load phase Ended
+2026-Jan-05-20:32:13,ETL Job Ended
+2026-Jan-05-22:56:48,ETL Job Started
+2026-Jan-05-22:56:48,Extract phase Started
+2026-Jan-05-22:56:48,Extract phase Ended
+2026-Jan-05-22:56:48,Transform phase Started
+2026-Jan-05-22:56:48,Transform phase Ended
+2026-Jan-05-22:56:48,Load phase Started
+2026-Jan-05-22:56:48,Load phase Ended
+2026-Jan-05-22:56:48,ETL Job Ended
+2026-Jan-06-20:31:24,ETL Job Started
+2026-Jan-06-20:31:24,Extract phase Started
+2026-Jan-06-20:31:25,Extract phase Ended
+2026-Jan-06-20:31:25,Transform phase Started
+2026-Jan-06-20:31:25,Transform phase Ended
+2026-Jan-06-20:31:25,Load phase Started
+2026-Jan-06-20:31:25,Load phase Ended
+2026-Jan-06-20:31:25,ETL Job Ended
+2026-Jan-06-20:32:27,ETL Job Started
+2026-Jan-06-20:32:27,Extract phase Started
+2026-Jan-06-20:32:27,Extract phase Ended
+2026-Jan-06-20:32:27,Transform phase Started
+2026-Jan-06-20:32:27,Transform phase Ended
+2026-Jan-06-20:32:27,Load phase Started
+2026-Jan-06-20:32:27,Load phase Ended
+2026-Jan-06-20:32:27,ETL Job Ended
+2026-Jan-06-20:41:14,ETL Job Started
+2026-Jan-06-20:41:14,Extract phase Started
+2026-Jan-06-20:41:14,Extract phase Ended
+2026-Jan-06-20:41:14,Transform phase Started
+2026-Jan-06-20:41:14,Transform phase Ended
+2026-Jan-06-20:41:14,Load phase Started
+2026-Jan-06-20:41:14,Load phase Ended
+2026-Jan-06-20:41:14,ETL Job Ended
+2026-Jan-07-15:32:34,ETL Job Started
+2026-Jan-07-15:32:34,Extract phase Started
+2026-Jan-07-15:32:34,Extract phase Ended
+2026-Jan-07-15:32:34,Transform phase Started
+2026-Jan-07-15:32:34,Transform phase Ended
+2026-Jan-07-15:32:34,Load phase Started
+2026-Jan-07-15:32:34,Load phase Ended
+2026-Jan-07-15:32:34,ETL Job Ended
+2026-Jan-07-15:42:12,ETL Job Started
+2026-Jan-07-15:42:12,Extract phase Started
+2026-Jan-07-15:42:12,Extract phase Ended
+2026-Jan-07-15:42:12,Transform phase Started
+2026-Jan-07-15:42:12,Transform phase Ended
+2026-Jan-07-15:42:12,Load phase Started
+2026-Jan-07-15:42:12,Load phase Ended
+2026-Jan-07-15:42:12,ETL Job Ended
+2026-Jan-07-15:43:46,ETL Job Started
+2026-Jan-07-15:43:46,Extract phase Started
+2026-Jan-07-15:43:46,Extract phase Ended
+2026-Jan-07-15:43:46,Transform phase Started
+2026-Jan-07-15:43:46,Transform phase Ended
+2026-Jan-07-15:43:46,Load phase Started
+2026-Jan-07-15:43:46,Load phase Ended
+2026-Jan-07-15:43:46,ETL Job Ended
+2026-Jan-07-19:53:40,ETL Job Started
+2026-Jan-07-19:53:40,Extract phase Started
+2026-Jan-07-19:53:40,Extract phase Ended
+2026-Jan-07-19:53:40,Transform phase Started
+2026-Jan-07-19:53:40,Transform phase Ended
+2026-Jan-07-19:53:40,Load phase Started
+2026-Jan-07-19:53:40,Load phase Ended
+2026-Jan-07-19:53:40,ETL Job Ended
+2026-Jan-07-20:07:35,ETL Job Started
+2026-Jan-07-20:07:35,Extract phase Started
+2026-Jan-07-20:07:35,Extract phase Ended
+2026-Jan-07-20:07:35,Transform phase Started
+2026-Jan-07-20:07:35,Transform phase Ended
+2026-Jan-07-20:07:35,Load phase Started
+2026-Jan-07-20:07:35,Load phase Ended
+2026-Jan-07-20:07:35,ETL Job Ended
+2026-Jan-07-20:11:18,ETL Job Started
+2026-Jan-07-20:11:18,Extract phase Started
+2026-Jan-07-20:11:18,Extract phase Ended
+2026-Jan-07-20:11:18,Transform phase Started
+2026-Jan-07-20:11:18,Transform phase Ended
+2026-Jan-07-20:11:18,Load phase Started
+2026-Jan-07-20:11:18,Load phase Ended
+2026-Jan-07-20:11:18,ETL Job Ended
+2026-Jan-09-09:12:43,ETL Job Started
+2026-Jan-09-09:12:43,Extract phase Started
+2026-Jan-09-09:12:43,Extract phase Ended
+2026-Jan-09-09:12:43,Transform phase Started
+2026-Jan-09-09:12:43,Transform phase Ended
+2026-Jan-09-09:12:43,Load phase Started
+2026-Jan-09-09:12:43,Load phase Ended
+2026-Jan-09-09:12:43,ETL Job Ended
+2026-Jan-14-08:47:03,ETL Job Started
+2026-Jan-14-08:47:03,Extract phase Started
+2026-Jan-14-08:47:03,Extract phase Ended
+2026-Jan-14-08:47:03,Transform phase Started
+2026-Jan-14-08:47:03,Transform phase Ended
+2026-Jan-14-08:47:03,Load phase Started
+2026-Jan-14-08:47:03,Load phase Ended
+2026-Jan-14-08:47:03,ETL Job Ended
+2026-Jan-14-08:52:54,ETL Job Started
+2026-Jan-14-08:52:54,Extract phase Started
+2026-Jan-14-08:52:54,Extract phase Ended
+2026-Jan-14-08:52:54,Transform phase Started
+2026-Jan-14-08:52:54,Transform phase Ended
+2026-Jan-14-08:52:54,Load phase Started
+2026-Jan-14-08:52:54,Load phase Ended
+2026-Jan-14-08:52:54,ETL Job Ended
+2026-Jan-14-09:13:01,ETL Job Started
+2026-Jan-14-09:13:01,Extract phase Started
+2026-Jan-14-09:13:01,Extract phase Ended
+2026-Jan-14-09:13:01,Transform phase Started
+2026-Jan-14-09:13:01,Transform phase Ended
+2026-Jan-14-09:13:01,Load phase Started
+2026-Jan-14-09:13:01,Load phase Ended
+2026-Jan-14-09:13:01,ETL Job Ended
+2026-Jan-14-09:16:09,ETL Job Started
+2026-Jan-14-09:16:09,Extract phase Started
+2026-Jan-14-09:16:09,Extract phase Ended
+2026-Jan-14-09:16:09,Transform phase Started
+2026-Jan-14-09:16:09,Transform phase Ended
+2026-Jan-14-09:16:09,Load phase Started
+2026-Jan-14-09:16:09,Load phase Ended
+2026-Jan-14-09:16:09,ETL Job Ended
+2026-Jan-14-09:35:15, ETL Job Started
+2026-Jan-14-09:35:15, Extract phase Started
+2026-Jan-14-09:35:15, Extract phase Ended
+2026-Jan-14-09:35:15, Transform phase Started
+2026-Jan-14-09:35:15, Transform phase Ended
+2026-Jan-14-09:35:15, Load phase Started
+2026-Jan-14-09:35:15, Load phase Ended
+2026-Jan-14-09:35:15, ETL Job Ended
+2026-Jan-14-09:43:43, ETL Job Started
+2026-Jan-14-09:43:43, Extract phase Started
+2026-Jan-14-09:43:43, Extract phase Ended
+2026-Jan-14-09:43:43, Transform phase Started
+2026-Jan-14-09:43:43, Transform phase Ended
+2026-Jan-14-09:43:43, Load phase Started
+2026-Jan-14-09:43:43, Load phase Ended
+2026-Jan-14-09:43:43, ETL Job Ended
+2026-Jan-14-09:45:32, ETL Job Started
+2026-Jan-14-09:45:32, Extract phase Started
+2026-Jan-14-09:45:32, Extract phase Ended
+2026-Jan-14-09:45:32, Transform phase Started
+2026-Jan-14-09:45:32, Transform phase Ended
+2026-Jan-14-09:45:32, Load phase Started
+2026-Jan-14-09:45:32, Load phase Ended
+2026-Jan-14-09:45:32, ETL Job Ended
+2026-Jan-14-09:57:13, ETL Job Started
+2026-Jan-14-09:57:13, Extract phase Started
+2026-Jan-14-09:57:13, Extract phase Ended
+2026-Jan-14-09:57:13, Transform phase Started
+2026-Jan-14-09:57:13, Transform phase Ended
+2026-Jan-14-09:57:13, Load phase Started
+2026-Jan-14-09:57:13, Load phase Ended
+2026-Jan-14-09:57:13, ETL Job Ended
+2026-Jan-14-10:01:12, ETL Job Started
+2026-Jan-14-10:01:12, Extract phase Started
+2026-Jan-14-10:01:12, Extract phase Ended
+2026-Jan-14-10:01:12, Transform phase Started
+2026-Jan-14-10:01:12, Transform phase Ended
+2026-Jan-14-10:01:12, Load phase Started
+2026-Jan-14-10:01:12, Load phase Ended
+2026-Jan-14-10:01:12, ETL Job Ended
+2026-Jan-14-10:02:53, ETL Job Started
+2026-Jan-14-10:02:53, Extract phase Started
+2026-Jan-14-10:02:53, Extract phase Ended
+2026-Jan-14-10:02:53, Transform phase Started
+2026-Jan-14-10:02:53, Transform phase Ended
+2026-Jan-14-10:02:53, Load phase Started
+2026-Jan-14-10:02:53, Load phase Ended
+2026-Jan-14-10:02:53, ETL Job Ended
+2026-Jan-14-10:07:22, ETL Job Started
+2026-Jan-14-10:07:22, Extract phase Started
+2026-Jan-14-10:07:22, Extract phase Ended
+2026-Jan-14-10:07:22, Transform phase Started
+2026-Jan-14-10:07:22, Transform phase Ended
+2026-Jan-14-10:07:22, Load phase Started
+2026-Jan-14-10:07:22, Load phase Ended
+2026-Jan-14-10:07:22, ETL Job Ended
