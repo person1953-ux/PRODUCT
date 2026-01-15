@@ -1,0 +1,14 @@
+
+Project : etl_aws_db_athena_databricks_dynamodb_production
+1) Upload revenue_per_month.csv to S2 bucket
+2) Create anthena table revenue_per_month using csv file
+3) Export data to databricks table
+4) Load csv file to dynnamodb table
+#######################################
+5) dynamodb table revenue_per_month
+https://us-east-2.console.aws.amazon.com/dynamodbv2/home?region=us-east-2#item-explorer?maximize=true&table=revenue_per_month
+6) anthena table revenue_per_month
+https://us-east-2.console.aws.amazon.com/athena/home?region=us-east-2#/query-editor/history/8691b33d-0732-43c2-bad7-b33c9f4f0b1d
+7) databricks table revenue_yyyymm_ui
+https://dbc-a8cc44ec-b1d1.cloud.databricks.com/explore/data/workspace/default/revenue_yyyymm_ui?o=4496599915693478&activeTab=sample
+select revenue_yyyymm_ui and click on tab sample data

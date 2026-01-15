@@ -1,0 +1,227 @@
+2026-01-13 21:31:40,347 [INFO] === ETL Pipeline Started ===
+2026-01-13 21:31:40,478 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:42,087 [INFO] Uploaded C:/Users/User/PycharmProjects/PythonProject/PROJECT/DEVELOPMENT/ETL_AWS_DB/revenue_per_month.csv -> s3://nhan-s3-bucket/data/revenue_per_month.csv
+2026-01-13 21:31:42,088 [INFO] Athena folder: s3://nhan-s3-bucket/data/
+2026-01-13 21:31:42,129 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:43,757 [INFO] Athena DB 'database-2-athena' already exists
+2026-01-13 21:31:43,796 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:45,354 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:45,585 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:47,093 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:48,415 [INFO] Created Athena table 'revenue_per_month'
+2026-01-13 21:31:48,415 [INFO] Athena query:
+
+    SELECT *
+    FROM "database-2-athena"."revenue_per_month"
+    ORDER BY year, month
+    LIMIT 10;
+    
+2026-01-13 21:31:48,453 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:50,104 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:51,362 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:53,013 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:54,220 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:55,437 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:56,227 [INFO] Created CTAS table "database-2-athena"."temp_table_3c7ac4122cd54f1a90c888c7965538c0"
+2026-01-13 21:31:56,240 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:57,345 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:58,479 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:31:59,497 [INFO] Athena returned 10 rows
+2026-01-13 21:31:59,981 [INFO] Received status code 200 for POST request
+2026-01-13 21:31:59,981 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:31:59,982 [INFO] Successfully opened session 01f0f0f9-966f-1a2c-8663-a32e3d49ac98
+2026-01-13 21:32:00,156 [INFO] Received status code 200 for GET request
+2026-01-13 21:32:00,595 [INFO] Received status code 200 for POST request
+2026-01-13 21:32:00,595 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:32:00,598 [INFO] Closing session 01f0f0f9-966f-1a2c-8663-a32e3d49ac98
+2026-01-13 21:32:00,677 [INFO] Received status code 200 for POST request
+2026-01-13 21:32:00,677 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:32:00,678 [INFO] Inserted 0 rows into Databricks table 'revenue_yyyymm_ui'
+2026-01-13 21:32:00,679 [INFO] Loading CSV into DynamoDB...
+2026-01-13 21:32:00,810 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:32:01,782 [INFO] DynamoDB KeySchema: [{'AttributeName': 'YYYY', 'KeyType': 'HASH'}, {'AttributeName': 'MM', 'KeyType': 'RANGE'}]
+2026-01-13 21:32:01,783 [INFO] DynamoDB AttributeDefinitions: [{'AttributeName': 'MM', 'AttributeType': 'S'}, {'AttributeName': 'YYYY', 'AttributeType': 'S'}]
+2026-01-13 21:32:02,604 [INFO] Loaded 12 items into DynamoDB table 'revenue_per_month'
+2026-01-13 21:32:02,607 [INFO] === ETL Pipeline Completed Successfully ===
+2026-01-13 21:39:59,182 [INFO] === ETL Pipeline Started ===
+2026-01-13 21:39:59,359 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:00,622 [INFO] Uploaded C:/Users/User/PycharmProjects/PythonProject/PROJECT/DEVELOPMENT/ETL_AWS_DB/revenue_per_month.csv -> s3://nhan-s3-bucket/data/revenue_per_month.csv
+2026-01-13 21:40:00,623 [INFO] Athena folder: s3://nhan-s3-bucket/data/
+2026-01-13 21:40:00,642 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:01,716 [INFO] Athena DB 'database-2-athena' already exists
+2026-01-13 21:40:01,733 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:02,854 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:03,101 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:04,381 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:05,370 [INFO] Created Athena table 'revenue_per_month'
+2026-01-13 21:40:05,370 [INFO] Athena query:
+
+    SELECT *
+    FROM "database-2-athena"."revenue_per_month"
+    ORDER BY year, month
+    LIMIT 10;
+    
+2026-01-13 21:40:05,386 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:06,553 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:08,162 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:09,862 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:11,316 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:13,641 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:15,055 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:16,548 [INFO] Created CTAS table "database-2-athena"."temp_table_71bd6c9cf1074baeadc3d5e7f03071c9"
+2026-01-13 21:40:16,586 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:18,259 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:19,923 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:21,780 [INFO] Athena returned 10 rows
+2026-01-13 21:40:22,695 [INFO] Received status code 200 for POST request
+2026-01-13 21:40:22,696 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:40:22,698 [INFO] Successfully opened session 01f0f0fa-c210-1ba1-8a9d-d79dd934812f
+2026-01-13 21:40:22,926 [INFO] Received status code 200 for GET request
+2026-01-13 21:40:23,607 [INFO] Received status code 200 for POST request
+2026-01-13 21:40:23,608 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:40:23,627 [INFO] Closing session 01f0f0fa-c210-1ba1-8a9d-d79dd934812f
+2026-01-13 21:40:23,737 [INFO] Received status code 200 for POST request
+2026-01-13 21:40:23,737 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:40:23,741 [INFO] Inserted 0 rows into Databricks table 'revenue_yyyymm_ui'
+2026-01-13 21:40:23,741 [INFO] Loading CSV into DynamoDB...
+2026-01-13 21:40:23,973 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:40:25,622 [INFO] DynamoDB KeySchema: [{'AttributeName': 'YYYY', 'KeyType': 'HASH'}, {'AttributeName': 'MM', 'KeyType': 'RANGE'}]
+2026-01-13 21:40:25,622 [INFO] DynamoDB AttributeDefinitions: [{'AttributeName': 'MM', 'AttributeType': 'S'}, {'AttributeName': 'YYYY', 'AttributeType': 'S'}]
+2026-01-13 21:40:26,431 [INFO] Loaded 12 items into DynamoDB table 'revenue_per_month'
+2026-01-13 21:40:26,438 [INFO] === ETL Pipeline Completed Successfully ===
+2026-01-13 21:41:50,001 [INFO] === ETL Pipeline Started ===
+2026-01-13 21:41:50,132 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:51,456 [INFO] Uploaded C:/Users/User/PycharmProjects/PythonProject/PROJECT/DEVELOPMENT/ETL_AWS_DB/revenue_per_month.csv -> s3://nhan-s3-bucket/data/revenue_per_month.csv
+2026-01-13 21:41:51,456 [INFO] Athena folder: s3://nhan-s3-bucket/data/
+2026-01-13 21:41:51,496 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:52,837 [INFO] Athena DB 'database-2-athena' already exists
+2026-01-13 21:41:52,873 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:54,419 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:54,969 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:56,849 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:58,108 [INFO] Created Athena table 'revenue_per_month'
+2026-01-13 21:41:58,109 [INFO] Athena query:
+
+    SELECT *
+    FROM "database-2-athena"."revenue_per_month"
+    ORDER BY year, month
+    LIMIT 10;
+    
+2026-01-13 21:41:58,166 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:41:59,846 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:01,669 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:02,975 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:03,985 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:05,081 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:06,499 [INFO] Created CTAS table "database-2-athena"."temp_table_22c546c0fb304c9f9ac515ec7f099c25"
+2026-01-13 21:42:06,515 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:08,657 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:10,578 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:12,686 [INFO] Athena returned 10 rows
+2026-01-13 21:42:14,149 [INFO] Received status code 200 for POST request
+2026-01-13 21:42:14,149 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:42:14,152 [INFO] Successfully opened session 01f0f0fb-046a-1dd4-b6df-88a6f56ecf03
+2026-01-13 21:42:14,496 [INFO] Received status code 200 for GET request
+2026-01-13 21:42:14,845 [INFO] Received status code 200 for POST request
+2026-01-13 21:42:14,845 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:42:14,854 [INFO] Closing session 01f0f0fb-046a-1dd4-b6df-88a6f56ecf03
+2026-01-13 21:42:14,997 [INFO] Received status code 200 for POST request
+2026-01-13 21:42:14,997 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:42:15,000 [INFO] Inserted 0 rows into Databricks table 'revenue_yyyymm_ui'
+2026-01-13 21:42:15,001 [INFO] Loading CSV into DynamoDB...
+2026-01-13 21:42:15,208 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:42:17,350 [INFO] DynamoDB KeySchema: [{'AttributeName': 'YYYY', 'KeyType': 'HASH'}, {'AttributeName': 'MM', 'KeyType': 'RANGE'}]
+2026-01-13 21:42:17,350 [INFO] DynamoDB AttributeDefinitions: [{'AttributeName': 'MM', 'AttributeType': 'S'}, {'AttributeName': 'YYYY', 'AttributeType': 'S'}]
+2026-01-13 21:42:18,763 [INFO] Loaded 12 items into DynamoDB table 'revenue_per_month'
+2026-01-13 21:42:18,770 [INFO] === ETL Pipeline Completed Successfully ===
+2026-01-13 21:49:46,184 [INFO] === ETL Pipeline Started ===
+2026-01-13 21:49:46,256 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:47,140 [INFO] Uploaded C:/Users/User/PycharmProjects/PythonProject/PROJECT/DEVELOPMENT/ETL_AWS_DB/revenue_per_month.csv -> s3://nhan-s3-bucket/data/revenue_per_month.csv
+2026-01-13 21:49:47,140 [INFO] Athena folder: s3://nhan-s3-bucket/data/
+2026-01-13 21:49:47,153 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:48,020 [INFO] Athena DB 'database-2-athena' already exists
+2026-01-13 21:49:48,033 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:48,875 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:49,061 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:50,115 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:50,924 [INFO] Created Athena table 'revenue_per_month'
+2026-01-13 21:49:50,924 [INFO] Athena query:
+
+    SELECT *
+    FROM "database-2-athena"."revenue_per_month"
+    ORDER BY year, month
+    LIMIT 10;
+    
+2026-01-13 21:49:50,937 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:51,845 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:52,630 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:54,241 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:55,021 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:57,010 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:58,381 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:49:59,381 [INFO] Created CTAS table "database-2-athena"."temp_table_62adbe9d7a6040d0a94265648b3c2c4e"
+2026-01-13 21:49:59,421 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:50:00,560 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:50:01,602 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:50:02,803 [INFO] Athena returned 10 rows
+2026-01-13 21:50:03,839 [INFO] Received status code 200 for POST request
+2026-01-13 21:50:03,840 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:50:03,841 [INFO] Successfully opened session 01f0f0fc-1c75-109c-8e3d-74a79c4c6ace
+2026-01-13 21:50:04,060 [INFO] Received status code 200 for GET request
+2026-01-13 21:50:04,584 [INFO] Received status code 200 for POST request
+2026-01-13 21:50:04,584 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:50:04,587 [INFO] Closing session 01f0f0fc-1c75-109c-8e3d-74a79c4c6ace
+2026-01-13 21:50:04,683 [INFO] Received status code 200 for POST request
+2026-01-13 21:50:04,683 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:50:04,684 [INFO] Inserted 0 rows into Databricks table 'revenue_yyyymm_ui'
+2026-01-13 21:50:04,684 [INFO] Loading CSV into DynamoDB...
+2026-01-13 21:50:04,777 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:50:05,743 [INFO] DynamoDB KeySchema: [{'AttributeName': 'YYYY', 'KeyType': 'HASH'}, {'AttributeName': 'MM', 'KeyType': 'RANGE'}]
+2026-01-13 21:50:05,744 [INFO] DynamoDB AttributeDefinitions: [{'AttributeName': 'MM', 'AttributeType': 'S'}, {'AttributeName': 'YYYY', 'AttributeType': 'S'}]
+2026-01-13 21:50:06,482 [INFO] Loaded 12 items into DynamoDB table 'revenue_per_month'
+2026-01-13 21:50:06,488 [INFO] === ETL Pipeline Completed Successfully ===
+2026-01-13 21:53:06,839 [INFO] === ETL Pipeline Started ===
+2026-01-13 21:53:06,973 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:08,043 [INFO] Uploaded C:/Users/User/PycharmProjects/PythonProject/PROJECT/DEVELOPMENT/ETL_AWS_DB/revenue_per_month.csv -> s3://nhan-s3-bucket/data/revenue_per_month.csv
+2026-01-13 21:53:08,043 [INFO] Athena folder: s3://nhan-s3-bucket/data/
+2026-01-13 21:53:08,081 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:09,466 [INFO] Athena DB 'database-2-athena' already exists
+2026-01-13 21:53:09,503 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:10,896 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:11,411 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:12,765 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:13,857 [INFO] Created Athena table 'revenue_per_month'
+2026-01-13 21:53:13,857 [INFO] Athena query:
+
+    SELECT *
+    FROM "database-2-athena"."revenue_per_month"
+    ORDER BY year, month
+    LIMIT 10;
+    
+2026-01-13 21:53:13,895 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:15,324 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:16,747 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:18,511 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:19,461 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:20,672 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:21,802 [INFO] Created CTAS table "database-2-athena"."temp_table_0c2527789c0e47e0869e474d5a59df2d"
+2026-01-13 21:53:21,843 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:23,298 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:25,088 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:26,929 [INFO] Athena returned 10 rows
+2026-01-13 21:53:27,446 [INFO] Received status code 200 for POST request
+2026-01-13 21:53:27,446 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:53:27,447 [INFO] Successfully opened session 01f0f0fc-95d6-1faa-8007-85c26f42596e
+2026-01-13 21:53:27,637 [INFO] Received status code 200 for GET request
+2026-01-13 21:53:28,049 [INFO] Received status code 200 for POST request
+2026-01-13 21:53:28,049 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:53:28,052 [INFO] Closing session 01f0f0fc-95d6-1faa-8007-85c26f42596e
+2026-01-13 21:53:28,190 [INFO] Received status code 200 for POST request
+2026-01-13 21:53:28,190 [INFO] HTTP Response with status code 200, message: OK
+2026-01-13 21:53:28,191 [INFO] Inserted 0 rows into Databricks table 'revenue_yyyymm_ui'
+2026-01-13 21:53:28,191 [INFO] Loading CSV into DynamoDB...
+2026-01-13 21:53:28,309 [INFO] Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-13 21:53:29,098 [INFO] DynamoDB KeySchema: [{'AttributeName': 'YYYY', 'KeyType': 'HASH'}, {'AttributeName': 'MM', 'KeyType': 'RANGE'}]
+2026-01-13 21:53:29,098 [INFO] DynamoDB AttributeDefinitions: [{'AttributeName': 'MM', 'AttributeType': 'S'}, {'AttributeName': 'YYYY', 'AttributeType': 'S'}]
+2026-01-13 21:53:29,701 [INFO] Loaded 12 items into DynamoDB table 'revenue_per_month'
+2026-01-13 21:53:29,709 [INFO] === ETL Pipeline Completed Successfully ===
