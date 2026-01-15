@@ -1,0 +1,5 @@
+1) Python project reads from inventorylot.csv file created by manufacture at 7 am and 7pm
+2) The job is scheduled to run 2 times a day at 7:05 am and 7:05 pm by UNIX cron job.
+3) Data read from csv file will be inserted to Oracle table inventorylot
+4) This table is used by Tableau application to create a dashboard for manufactures
+5) The dashboard display information about  current lot inventory number/arrive date/estimate ship data.
