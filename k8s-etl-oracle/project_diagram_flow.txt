@@ -1,0 +1,73 @@
+
+k8s-etl-oracle/
+├── app/
+│   └── load_warehouse.py
+├── data/
+│   └── warehouse.csv
+├── docker/
+│   └── Dockerfile
+├── k8s/
+│   ├── cronjob.yaml
+│   ├── configmap.yaml
+│   ├── secret.yaml
+│   └── namespace.yaml
+├── requirements.txt
+└── README.md
+
+HR/hr@host.docker.internal:1521/XE
+│  │      │                    │
+│  │      │                    └── ORACLE_SERVICE
+│  │      └── ORACLE_HOST
+│  └── ORACLE_PASSWORD
+└── ORACLE_USER
+
+
+
+┌──────────────────────────┐
+│                          │
+│  Oracle XE Database      │
+│  --------------------    │
+│  Host: localhost         │
+│  Port: 1521              │
+│  Service: XE             │
+│  User: HR / hr           │
+│  Table: WAREHOUSE_DATA   │
+└──────────▲───────────────┘
+           │
+           │ host.docker.internal
+           │
+┌──────────┴───────────────┐
+│   Kubernetes Pod         │
+│   (Job container)        │
+│                          │
+│  Python app              │
+│  load_warehouse.py       │
+│                          │
+│  Reads environment vars: │
+│   ORACLE_HOST             │
+│   ORACLE_PORT             │
+│   ORACLE_SERVICE          │
+│   ORACLE_USER             │
+│   ORACLE_PASSWORD         │
+└──────────▲───────────────┘
+           │
+           │ injected by Kubernetes
+           │
+┌──────────┴───────────────┐
+│ Kubernetes ConfigMap     │
+│ ---------------------    │
+│ ORACLE_HOST=host.docker… │
+│ ORACLE_PORT=1521         │
+│ ORACLE_SERVICE=XE        │
+│ CSV_FILE=warehouse.csv   │
+└──────────────────────────┘
+
+┌──────────────────────────┐
+│ Kubernetes Secret        │
+│ ---------------------    │
+│ ORACLE_USER=HR           │
+│ ORACLE_PASSWORD=hr       │
+└──────────────────────────┘
+
+
+✅

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: oracle-config
+  namespace: etl
+data:
+  ORACLE_HOST: localhost
+  ORACLE_PORT: "1521"
+  ORACLE_SERVICE: XE
+  CSV_FILE: warehouse.csv
+

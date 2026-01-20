@@ -1,0 +1,31 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: oracle-etl-cronjob
+spec:
+  schedule: "0 2 * * *"   # runs daily at 02:00
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      backoffLimit: 2
+      template:
+        spec:
+          restartPolicy: Never
+          containers:
+          - name: etl
+            image: k8s-etl-oracle
+            imagePullPolicy: IfNotPresent
+            envFrom:
+            - configMapRef:
+                name: oracle-config
+            - secretRef:
+                name: oracle-secret
+            volumeMounts:
+            - name: csv-data
+              mountPath: /data
+          volumes:
+          - name: csv-data
+            configMap:
+              name: warehouse-csv

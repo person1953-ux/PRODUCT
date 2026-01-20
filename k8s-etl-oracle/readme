@@ -1,0 +1,29 @@
+# Kubernetes Scheduled ETL Pipeline (Oracle)
+
+This project demonstrates a containerized ETL pipeline deployed on Kubernetes.
+
+## Features
+- Python ETL application using pandas and oracledb
+- Dockerized execution environment
+- Kubernetes CronJob scheduling
+- Secure configuration via ConfigMaps and Secrets
+- CSV ingestion and Oracle database loading
+
+## Architecture
+- Docker image runs a Python ETL script
+- CSV data mounted via ConfigMap
+- Oracle credentials stored in Kubernetes Secrets
+- Kubernetes CronJob schedules ETL execution
+
+## Technologies
+- Python
+- Docker
+- Kubernetes
+- Oracle XE
+- pandas
+- oracledb
+
+## Usage
+1. Build Docker image
+2. Apply Kubernetes manifests
+3. Monitor CronJob execution
