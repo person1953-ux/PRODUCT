@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Search</title>
+</head>
+<body>
+
+<h2>Search Inventory</h2>
+
+<form method="get">
+    <input type="text" name="q" placeholder="Search part number" value="{{ q }}">
+
+    <select name="location">
+        <option value="">All Locations</option>
+        <option value="AUSTIN">AUSTIN</option>
+        <option value="DALLAS">DALLAS</option>
+        <option value="HOUSTON">HOUSTON</option>
+        <option value="SAN_ANTONIO">SAN_ANTONIO</option>
+    </select>
+
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Part Number</th>
+        <th>Location</th>
+        <th>Quantity</th>
+        <th>Unit</th>
+    </tr>
+
+    {% for lot in lots %}
+    <tr>
+        <td>{{ lot.partnumber }}</td>
+        <td>{{ lot.location }}</td>
+        <td>{{ lot.quantity }}</td>
+        <td>{{ lot.unit }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

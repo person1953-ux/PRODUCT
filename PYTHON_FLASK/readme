@@ -1,0 +1,57 @@
+Flask is a lightweight,
+flexible Python web framework that build web applications and APIs with minimal setup.
+What Flask is made of
+At its core, Flask provides:
+✔ A web server
+✔ Routing (URL → function)
+✔ Request/response handling
+✔ Template rendering (Jinja2)
+✔ Extensions for anything else (ORM, auth, forms, etc.)
+A real Flask project structure
+Python files (app.py, routes.py, models.py)
+HTML templates (index.html, inventory.html)
+A working REST API
+A working UI page
+A working Chart.js  dashboard
+
+############## FLASH STRUCTURE ############
+
+
+flask_inventory/
+│
+├── app.py
+├── routes.py
+├── models.py
+├── inventory_data.py
+│
+└── templates/
+    ├── index.html
+    ├── inventory.html
+    └── chart.html
+
+##############
+
+
+Home: http://localhost:5000
+Search UI: http://localhost:5000/inventory
+Chart Dashboard: http://localhost:5000/chart
+REST API: http://localhost:5000/api/inventory
+
+##### running #####
+C:\Users\User\PycharmProjects\PythonProject\PROJECT\PRODUCT\PYTHON_FLASK\flask_inventory>python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+ * Restarting with stat
+ * Debugger is active!
+##################################
+##################################
+http://localhost:5000/
+Welcome inventory Sysem
+Inventory Search
+Inventory Chart
+Inventory API (JSON)
+############### READ ME ON RESUME ################
+Built a modular Flask web application featuring a REST API, server‑side rendered UI,
+and interactive Chart.js  dashboard. Implemented clean routing, data filtering,
+and reusable templates. Designed for extensibility with a clear project structure
+and production‑ready patterns.”
