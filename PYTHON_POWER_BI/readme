@@ -1,0 +1,96 @@
+1. KPI Cards Creation (Executive Summary)
+Created individual KPI cards using the Card (New) visual to summarize key business metrics.
+Steps:
+    • Created DAX measures using DISTINCTCOUNT, SUM, and AVERAGE
+    • Used Card (New) visual, placing one measure per card
+    • Configured Callout Value formatting for clarity
+KPIs Created:
+    • Total Customers: Distinct count of Customer ID
+    • Locations: Distinct count of Location (state)
+    • Items Purchased: Distinct count of Item Purchased
+    • Average Age: Average of customer age, rounded to whole number
+    • Total Purchased Cost: Sum of Purchase Amount (USD), displayed in thousands
+Purpose:
+    • Provide a high-level overview of customer base, geographic coverage, product diversity, demographics, and revenue
+
+2. Highlight Table – Customer Distribution by Location
+Created a highlight table to visualize customer distribution across states.
+Steps:
+    • Inserted a Table visual
+    • Added Location and Customer ID fields
+    • Set Customer ID aggregation to Count or Distinct Count
+    • Applied conditional formatting using Data Bars on customer count
+    • Sorted table in descending order by customer count
+Purpose:
+    • Quickly identify states with higher or lower customer concentration
+    • Enhance readability using visual indicators within table cells
+
+3. Stacked Bar Chart – Customers by Shipping Type and Purchase Frequency
+Built a stacked bar chart to analyze customer behavior across shipping methods and purchase frequency.
+Steps:
+    • Selected Stacked Bar Chart visual
+    • Assigned Shipping Type to Y-axis
+    • Assigned Frequency of Purchases to Legend
+    • Used Total Customers (distinct count measure) as X-axis value
+    • Enabled data labels for customer count visibility
+Purpose:
+    • Compare customer distribution across shipping options
+    • Identify how purchase frequency varies by shipping method
+
+4. Bar Chart – Purchase Amount by Category and Season
+Created a bar chart to analyze spending patterns across product categories and seasons.
+Steps:
+    • Selected Bar Chart visual
+    • Assigned Product Category to Axis
+    • Assigned Total Purchase Amount to Values
+    • Used Season as Legend
+    • Enabled data labels to display purchase amounts for each season
+Purpose:
+    • Identify seasonal purchasing trends
+    • Compare revenue contribution by product category
+
+5. Line Chart – Age vs Average Purchase Amount (With Min/Max Highlight)
+Developed a line chart to show the relationship between customer age and average purchase amount.
+Steps:
+    • Selected Line Chart visual
+    • Assigned Age to X-axis
+    • Assigned Average Purchase Amount measure to Y-axis
+    • Created additional DAX measures to identify maximum and minimum average purchase amounts
+    • Added Max and Min measures to the chart to label peak and lowest spending ages
+    • Enabled data labels only for highlighted points
+Purpose:
+    • Analyze spending behavior across age groups
+    • Identify peak spending age and lowest spending age
+
+6. Pie Chart – Total Purchase Amount by Gender
+Built a pie chart to compare total spending by gender.
+Steps:
+    • Selected Pie Chart visual
+    • Assigned Gender to Legend
+    • Assigned Total Purchase Amount (SUM measure) to Values
+    • Enabled data labels showing value and percentage of total
+Purpose:
+    • Compare contribution of each gender to overall revenue
+    • Provide an intuitive breakdown of spending distribution
+
+7. Matrix Table – Shipping Type vs Purchase Frequency
+Created a matrix to complement the stacked bar chart with detailed numeric values.
+Steps:
+    • Inserted Matrix visual
+    • Assigned Shipping Type to Rows
+    • Assigned Frequency of Purchases to Columns
+    • Used Total Customers measure as Values
+    • Disabled unnecessary totals and gridlines for clarity
+Purpose:
+    • Provide detailed customer counts supporting the visual analysis
+    • Enable precise comparison across customer segments
+
+8. Dashboard Save and Reusability
+Ensured dashboard persistence and reusability.
+Steps:
+    • Saved the report as a PBIX file
+    • Enabled Auto Recovery settings
+    • Verified that all visuals, measures, and formatting persist when reopening the file
+Purpose:
+    • Maintain dashboard consistency
+    • Enable future enhancements and reuse
